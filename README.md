@@ -5,7 +5,7 @@
 ![螢幕擷取畫面 2024-06-22 225603](https://github.com/vat2cat/GuessNumber-java/assets/160461838/ac3251ad-3c8c-4480-b001-439e03479ff0)
 
 電腦猜人：
-![螢幕擷取畫面 2024-06-22 225118](https://github.com/vat2cat/GuessNumber-java/assets/160461838/191cc7ee-8335-43e8-b0f2-8634ec73e41d)
+![螢幕擷取畫面 2024-06-22 231435](https://github.com/vat2cat/GuessNumber-java/assets/160461838/3ca0707e-0fd4-4cad-ad86-01d98239b8cc)
 
 # 人猜電腦
 (1) 如果玩家選擇先猜（n=0），電腦生成一個四位數字答案 ans。
