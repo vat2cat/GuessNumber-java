@@ -1,3 +1,19 @@
-# GuessNumber
-In the game beginning, you need to choose you want to guess first or let computer first. 
-Then game will begin, and the end of the game it will tell about how many times you spend on this game.
+# 遊戲介紹
+用 Java 模擬人類與電腦之間的猜數字遊戲。程式分成兩個部分：人類猜電腦生成的數字，以及電腦猜人類想的數字。
+# Demo
+人猜電腦：
+![螢幕擷取畫面 2024-06-22 225603](https://github.com/vat2cat/GuessNumber-java/assets/160461838/ac3251ad-3c8c-4480-b001-439e03479ff0)
+
+電腦猜人：
+![螢幕擷取畫面 2024-06-22 225118](https://github.com/vat2cat/GuessNumber-java/assets/160461838/191cc7ee-8335-43e8-b0f2-8634ec73e41d)
+
+# 人猜電腦
+(1) 如果玩家選擇先猜（n=0），電腦生成一個四位數字答案 ans。
+(2) 玩家輸入四位不同的數字並檢查是否符合條件。
+(3) 比較玩家的輸入和電腦的答案，給出幾個數字位置正確（A）和數字正確但位置錯誤（B）的反饋。
+(4) 直到玩家猜中四個數字位置全對（4A），遊戲結束並顯示玩家猜了多少次才猜對。
+# 電腦猜人
+(1) 如果玩家選擇後猜（n=1），生成所有可能的四位不同數字組合 sol1。
+(2) 電腦隨機從這些可能組合中選一個數字 gus，並顯示給玩家看。
+(3) 玩家根據電腦猜的數字，輸入對應的幾個數字位置正確（A）和數字正確但位置錯誤（B）的數量。
+(4) 如果最後，電腦猜中內人類就輸了；反之，則電腦輸了。
